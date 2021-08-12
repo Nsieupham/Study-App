@@ -14,6 +14,7 @@ public class Excercide : MonoBehaviour
     public int ar;
     public int u;
 
+
     public void Awake()
     {
         NDLoader = GameObject.Find("ND");

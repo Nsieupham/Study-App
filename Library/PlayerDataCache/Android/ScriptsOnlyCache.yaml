@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AddButton
+    - Create
     - Excercide
     - ND
     - Scene
@@ -21,8 +22,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -84,6 +83,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4234}
     - Class: 114
       Script: {instanceID: 4320}
+    - Class: 114
+      Script: {instanceID: 24760}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -348,12 +349,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Notifications.Android.dll
     namespaceName: Unity.Notifications.Android
     className: AndroidReceivedNotificationMainThreadDispatcher
-  - hash:
-      serializedVersion: 2
-      Hash: 7d89f212dd6dd457a8f7eddf8af27344
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NDSaveData
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -822,6 +817,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: txtC
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Create
   platform: 13
   scenePathNames:
   - Assets/Scenes/Scene Start.unity

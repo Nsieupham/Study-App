@@ -15,5 +15,4 @@ public class DataArr
         listDA.AddRange(nd.listDA);
 
     }
-
 }
